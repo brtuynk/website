@@ -51,8 +51,9 @@ class UserProfileUpdateSerializer(ModelSerializer):
         )
 
 
-#class HelloSerializer(serializers.Serializer):
-#    """Serializers a name field for testing our APIView"""
-#    name = serializers.CharField(max_length=10)
+class Serializer(serializers.Serializer):
+    """Serializers a name field for testing our APIView"""
+    name = serializers.CharField(max_length=10)
+
 
 

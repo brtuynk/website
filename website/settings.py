@@ -38,6 +38,8 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'authProfile',
+    'project',
+    'test',
 ]
 
 MIDDLEWARE = [
@@ -121,4 +123,4 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 
-#AUTH_USER_MODEL = 'authProfile.UserProfile'
+AUTH_USER_MODEL = 'authProfile.UserProfile'
